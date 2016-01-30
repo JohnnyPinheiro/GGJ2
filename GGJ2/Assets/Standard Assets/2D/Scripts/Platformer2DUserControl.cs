@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEditor;
 
 namespace UnityStandardAssets._2D
 {
@@ -9,8 +10,6 @@ namespace UnityStandardAssets._2D
     {
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
-
-
         private void Awake()
         {
             m_Character = GetComponent<PlatformerCharacter2D>();
