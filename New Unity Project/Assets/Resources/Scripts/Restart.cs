@@ -10,9 +10,9 @@ public class Restart : MonoBehaviour {
         
         if (coll.gameObject.tag == "Player")
         {
-           // PlatformerCharacter2D char2D = coll.gameObject.GetComponent<PlatformerCharacter2D>();
-            //char2D.loseLife();
-            //char2D.gameObject.transform.position = Vector3.zero;
+          //  PlatformerCharacter2D char2D = coll.gameObject.GetComponent<PlatformerCharacter2D>();
+           // char2D.loseLife();
+           // char2D.gameObject.transform.position = Vector3.zero;
             Application.LoadLevel(Application.loadedLevel);
         }
 
