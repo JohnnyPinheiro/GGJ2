@@ -51,6 +51,9 @@ namespace UnityStandardAssets._2D
 
         public void Move(float move, bool crouch, bool jump)
         {
+            GameObject camera = GameObject.Find("Camera");
+            camera.transform.position = gameObject.transform.position + new Vector3(0, 0, -10);
+
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
             {
