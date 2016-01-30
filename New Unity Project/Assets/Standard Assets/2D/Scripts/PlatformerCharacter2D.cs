@@ -32,9 +32,14 @@ namespace UnityStandardAssets._2D
             DontDestroyOnLoad(this);
         }
 
-        public void loseLife()
+        public void LoseLife()
         {
-            loseLives++;
+            Debug.Log("achoiu");
+        }
+
+        public void x()
+        {
+            //
         }
 
        
