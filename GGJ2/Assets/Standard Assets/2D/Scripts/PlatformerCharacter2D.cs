@@ -58,6 +58,9 @@ namespace UnityStandardAssets._2D
 
         public void Move(float move, bool crouch, bool jump)
         {
+            GameObject camera = GameObject.Find("Camera");
+            camera.transform.position = gameObject.transform.position + new Vector3(0,0,-10);
+
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
             {
@@ -82,7 +85,9 @@ namespace UnityStandardAssets._2D
 
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
-
+                
+                //Debug.Log("Vel: " + m_Rigidbody2D.velocity);
+                //camera.transform.localPosition = camera.transform.localPosition + new Vector3(move * m_MaxSpeed * 0.01f, jump ? m_Rigidbody2D.velocity.y : 0,0);
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !m_FacingRight)
                 {
@@ -116,6 +121,7 @@ namespace UnityStandardAssets._2D
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+            
         }
     }
 }
