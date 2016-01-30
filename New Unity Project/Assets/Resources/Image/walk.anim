@@ -12,7 +12,6 @@ AnimationClip:
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
   m_CompressedRotationCurves: []
-  m_EulerCurves: []
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -20,19 +19,19 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.05
+    - time: .0500000007
       value: {fileID: 21300002, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.1
+    - time: .100000001
       value: {fileID: 21300004, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.15
+    - time: .150000006
       value: {fileID: 21300006, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.2
+    - time: .200000003
       value: {fileID: 21300008, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.25
+    - time: .25
       value: {fileID: 21300010, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.3
+    - time: .300000012
       value: {fileID: 21300012, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
-    - time: 0.35000002
+    - time: .350000024
       value: {fileID: 21300014, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
     attribute: m_Sprite
     path: 
@@ -62,14 +61,11 @@ AnimationClip:
     - {fileID: 21300014, guid: 6c70712566535364c86ac2e3fb40d8c7, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.40000004
+    m_StopTime: .400000036
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
     m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0

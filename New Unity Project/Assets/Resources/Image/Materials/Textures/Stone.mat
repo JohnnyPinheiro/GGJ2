@@ -20,8 +20,8 @@ Material:
           name: _MainTex
         second:
           m_Texture: {fileID: 2800000, guid: 4448ed5d9438b8f4d85561924821bc16, type: 3}
-          m_Scale: {x: 4.98, y: -0.97}
-          m_Offset: {x: 0.27, y: -0.02}
+          m_Scale: {x: 4.98000002, y: -.970000029}
+          m_Offset: {x: .270000011, y: -.0199999996}
       data:
         first:
           name: _BumpMap
@@ -69,7 +69,7 @@ Material:
           name: _DetailAlbedoMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: -1.91, y: 1}
+          m_Scale: {x: -1.90999997, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -90,11 +90,11 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: 0.5
+        second: .5
       data:
         first:
           name: _Parallax
-        second: 0.02
+        second: .0199999996
       data:
         first:
           name: _ZWrite
@@ -102,7 +102,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.111
+        second: .111000001
       data:
         first:
           name: _BumpScale
